@@ -1,0 +1,55 @@
+
+@Proceedings{CD2022,
+    booktitle = {Proceedings of The KDD'22 Workshop on Causal Discovery},
+    name = {The KDD'22 Workshop on Causal Discovery},
+    shortname = {CD2022},
+    editor = {Thuc Duy Le and Lin Liu and Emre K{\i}c{\i}man and Sofia Triantafyllou  and Huan Liu},
+    volume = {185},
+    year = {2022},
+    start = {2022-08-15},
+    end = {2022-08-15},
+    published = {2022-07-29},
+    conference_url = {http://4llab.net/workshops/CD2022/index.html},
+    address = {Washington DC, USA}
+}
+
+@InProceedings{le22,
+  title = 	 {Preface: The 2022 ACM SIGKDD Workshop on Causal Discovery },
+  author = 	 {Le, Thuc Duy and  Liu, Lin and K{\i}c{\i}man, Emre and Triantafyllou, Sofia and    Liu, Huan},
+  pages = 	 {1--2},
+  abstract =  {Preface to the 2022 KDD Workshop on Causal Discovery (CD 2022)}
+}
+
+@InProceedings{Valogianni22,
+	title = 	 {Causal ABMs: Learning Plausible Causal Models using Agent-based Modeling },
+	author = 	 {Valogianni, Konstantina and Padmanabhan, Balaji},
+	pages = 	 {3--29},
+	abstract = 	 {We present Causal ABM, a methodology to derive causal structures describing complex underlying behavioral phenomena. Agent-based models (ABMs) have powerful advantages for causal modeling that have not been explored sufficiently. Unlike traditional causal estimation approaches which often result in “one best” causal structure that is learned, two properties of ABMs - equifinality (the ability of different sets of conditions or model representations to yield the same outcome) and mutlifinality (the same ABM might yield different outcomes) - can be exploited to learn multiple diverse “plausible causal models” from data. Using an illustrative example of news sharing on social networks we show how this idea can be applied to learn such causal sets. We also show how genetic algorithms can be used as a estimation technique to learn multiple plausible causal models from data due to their parallel search structure. However, significant computational challenges remain before this can be generally applied, and we, therefore, highlight specific key issues that need to be addressed in future work.}
+}
+
+@InProceedings{Hagedorn22,
+	title = 	 {GPU Acceleration for Information-theoretic Constraint-based Causal Discovery},
+	author = 	 {Hagedorn, Christopher and Lange, Constantin and Huegle, Johannes and Schlosser, Rainer},
+	pages = 	 {30--60},
+	abstract = 	 {The discovery of causal relationships from observational data is an omnipresent task in data science. In real-world scenarios, observational data is often high-dimensional, and functional causal relationships can be nonlinear. To handle nonlinear relationships within constraint-based causal discovery, appropriate conditional independence tests (CI-tests) become necessary, e.g., non-parametric information-theory-based CI-tests. Both high- dimensional data and CI-tests for nonlinear relationships pose computational challenges.
+Existing work proposes parallel processing on Graphics Processing Units (GPUs) to address the computational demand resulting from high-dimensional data, in the case of discrete data or linear relationships. We extend this idea to cover CI-tests for nonlinear relationships in our work. Therefore, we develop GPUCMIknn, a GPU-accelerated version of an existing CI-test, which builds upon conditional mutual information (CMI) combined with a local permutation scheme. Further, we propose a version of the PC algorithm, called GPUCMIknn-Parallel, to process multiple instances of GPUCMIknn on the GPU in parallel.
+Experiments show that the performance of GPUCMIknn is mainly affected by the number of k-nearest-neighbors (knn) within the CMI estimation. Depending on the chosen number of knn, the achieved speedup of GPUCMIknn ranges between factors of 2.3 to 352. In causal discovery, our method GPUCMIknn-Parallel outperforms a single-threaded CPU version by factors of up to 1 000, a multi-threaded CPU version using eight cores by factors of up to 240, and a naive GPU version by up to a factor 3.}
+}
+
+@InProceedings{Mian22,
+	title = 	 {Regret-based Federated Causal Discovery},
+	author = 	 {Mian, Osman and Kaltenpoth, David and Kamp, Michael},
+	pages = 	 {61--69},
+	abstract = 	 {In critical applications, causal models are the prime choice for their trustworthiness and explainability. If data is inherently distributed and privacy-sensitive, federated learning allows for collaboratively training a joint model. Such approaches for federated causal discovery, however, require sending local causal models, revealing the local data structure. We propose privacy-preserving federated causal discovery by distributed min-max regret optimization. This technique requires clients to only send local regret values, instead of model parameters, ensuring the privacy of sensitive local data. Initial results show that our approach reliably discovers causal networks without ever looking at local data or local causal structures.}
+}
+
+
+
+
+
+
+
+
+
+
+

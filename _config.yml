@@ -1,0 +1,87 @@
+---
+booktitle: Proceedings of The KDD'22 Workshop on Causal Discovery
+shortname: CD2022
+volume: '185'
+year: '2022'
+start: 2022-08-15
+end: 2022-08-15
+published: 2022-07-29
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: CD2022
+month: 0
+cycles: false
+bibtex_editor: Le, Thuc Duy and Liu, Lin and K{\i}c{\i}man, Emre and Triantafyllou,
+  Sofia and Liu, Huan
+editor:
+- given: Thuc Duy
+  family: Le
+- given: Lin
+  family: Liu
+- given: Emre
+  family: Kıcıman
+- given: Sofia
+  family: Triantafyllou
+- given: Huan
+  family: Liu
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The KDD'22 Workshop on Causal Discovery
+    Held in Washington DC, USA on 15 August 2022
+
+  Published as Volume 185 by the Proceedings of Machine Learning Research on 29 July 2022.
+
+  Volume Edited by:
+    Thuc Duy Le
+    Lin Liu
+    Emre Kıcıman
+    Sofia Triantafyllou
+    Huan Liu
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 15 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v185"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v185
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v185
+email: ''
+conference:
+  name: The KDD'22 Workshop on Causal Discovery
+  url: http://4llab.net/workshops/CD2022/index.html
+  location: Washington DC, USA
+  dates:
+  - 2022-08-15
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v185/CD2022.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v185/CD2022.bib
